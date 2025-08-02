@@ -31,28 +31,28 @@ char estado2[3];
 char codigo2[4];
 char cidade2[50];
 
-printf("Insira abaixo as informações para cadastro das cartas: \n");
+printf("Insira abaixo as informacoes para cadastro das cartas: \n");
 printf("CARTA 1\n");
 
 printf("Estado: ");
 scanf(" %48[^\n]", estado);
 
-printf("Código: ");
+printf("Codigo: ");
 scanf("%s", codigo);
 
 printf("Cidade: ");
 scanf(" %48[^\n]", cidade);
 
-printf("População: ");
+printf("Populacao: ");
 scanf("%d", &populacao);
 
-printf("Área: ");
+printf("Area: ");
 scanf("%f", &area);
 
 printf("PIB: ");
 scanf("%f", &pib);
 
-printf("Número de pontos turísticos: ");
+printf("Numero de pontos turísticos: ");
 scanf("%d", &pontos);
 
 printf("CARTA 2\n");
@@ -60,26 +60,26 @@ printf("CARTA 2\n");
 printf("Estado: ");
 scanf(" %48[^\n]", estado2);
 
-printf("Código: ");
+printf("Codigo: ");
 scanf("%s", codigo2);
 
 printf("Cidade: ");
 scanf(" %48[^\n]", cidade2);
 
-printf("População: ");
+printf("Populacao: ");
 scanf("%d", &populacao2);
 
-printf("Área: ");
+printf("Area: ");
 scanf("%f", &area2);
 
 printf("PIB: ");
 scanf("%f", &pib2);
 
-printf("Número de pontos turísticos: ");
+printf("Número de pontos turisticos: ");
 scanf("%d", &pontos2);
 printf("\n");
 
-printf("Suas cartas cadastradas são:\n");
+printf("Suas cartas cadastradas sao:\n");
 printf("       CARTA 1\n");
 printf("    ESTADO: %s\n", estado);
 printf("    CoDIGO: %s\n", codigo);
@@ -87,7 +87,7 @@ printf("    CIDADE: %s\n", cidade);
 printf("    POPULAÇAO: %d \n", populacao);
 printf("    AREA: %.2f Km2\n", area);
 printf("    PIB: %.1f\n", pib);
-printf("    PONTOS TURÍSTICOS: %d\n", pontos);
+printf("    PONTOS TURISTICOS: %d\n", pontos);
 
 printf("       CARTA 2\n");
 printf("    ESTADO:%s\n", estado2);
@@ -96,8 +96,9 @@ printf("    CIDADE:%s\n", cidade2);
 printf("    POPULACAO:%d\n", populacao2);
 printf("    AREA:%.2f Km2\n", area2);
 printf("    PIB:%.1f\n", pib2);
-printf("    PONTOS TURÍSTICOS: %d\n", pontos2); 
+printf("    PONTOS TURISTICOS: %d\n", pontos2); 
 
 
 
+    
 }
