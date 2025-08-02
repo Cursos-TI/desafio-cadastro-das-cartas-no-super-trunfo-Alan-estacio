@@ -100,5 +100,4 @@ printf("    PONTOS TURÍSTICOS: %d\n", pontos2);
 
 
 
-    
 }
