@@ -31,7 +31,7 @@ char estado2[3];
 char codigo2[4];
 char cidade2[50];
 
-printf("Insira abaixo as informações para cadastro das cartas: \n");
+printf("Insira abaixo as informações para o cadastro das cartas: \n");
 printf("CARTA 1\n");
 
 printf("Estado: ");
