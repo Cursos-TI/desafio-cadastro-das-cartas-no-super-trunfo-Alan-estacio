@@ -22,13 +22,11 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 int pontos,pontos2, populacao, populacao2;
 float area, area2, pib, pib2;
-char nome[50];
 char estado[50];
-char codigo[4];
+char codigo[5];
 char cidade[50];
-char nome2[50];
-char estado2[3];
-char codigo2[4];
+char estado2[50];
+char codigo2[5];
 char cidade2[50];
 
 printf("Insira abaixo as informacoes para cadastro das cartas: \n");
@@ -82,23 +80,21 @@ printf("\n");
 printf("Suas cartas cadastradas sao:\n");
 printf("       CARTA 1\n");
 printf("    ESTADO: %s\n", estado);
-printf("    CoDIGO: %s\n", codigo);
+printf("    CÓDIGO: %s\n", codigo);
 printf("    CIDADE: %s\n", cidade);
-printf("    POPULAÇAO: %d \n", populacao);
-printf("    AREA: %.2f Km2\n", area);
-printf("    PIB: %.1f\n", pib);
-printf("    PONTOS TURISTICOS: %d\n", pontos);
+printf("    POPULAÇÃO: %d \n", populacao);
+printf("    ÁREA: %.2f Km2\n", area);
+printf("    PIB: %.2f\n", pib);
+printf("    NÚMERO DE PONTOS TURÍSTICOS: %d\n", pontos);
 
 printf("       CARTA 2\n");
 printf("    ESTADO:%s\n", estado2);
-printf("    CODIGO:%s\n", codigo2);
+printf("    CÓDIGO:%s\n", codigo2);
 printf("    CIDADE:%s\n", cidade2);
-printf("    POPULACAO:%d\n", populacao2);
-printf("    AREA:%.2f Km2\n", area2);
-printf("    PIB:%.1f\n", pib2);
-printf("    PONTOS TURISTICOS: %d\n", pontos2); 
+printf("    POPULAÇÃO:%d\n", populacao2);
+printf("    ÁREA:%.2f Km2\n", area2);
+printf("    PIB:%.2f\n", pib2);
+printf("    NÚMERO DE PONTOS TURÍSTICOS: %d\n", pontos2); 
 
-
-
-    
+  
 }
