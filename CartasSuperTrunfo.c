@@ -98,5 +98,5 @@ printf("    PIB PER CAPITA: %.2if reais", capita2);
 
 
 
-
+    
 }   
