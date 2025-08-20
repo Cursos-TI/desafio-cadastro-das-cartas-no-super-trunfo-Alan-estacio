@@ -8,7 +8,7 @@ retorna nenhum valor*/
 %f: Imprime um número com ponto flutuante no formato padrão.
 %e: Imprime um número com vírgula/ponto flutuante na notação científica.
 %c: Imprime um único caractere.
-%s: Imprime uma cadeia (string) de caracteres.*/
+%s: Imprime uma cadeia (string) de caracteres*/
 int main(){
 int pontos,pontos2, populacao, populacao2;
 float area, area2;
