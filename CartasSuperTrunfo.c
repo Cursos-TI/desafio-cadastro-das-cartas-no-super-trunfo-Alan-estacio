@@ -143,5 +143,5 @@ float poder2= populacao2 + area2 + pib2 + pontos2 + densidade2 + capita2;
     printf("SUPER PODER: Carta 2 vence\n"), poder2, poder;
    }
 
-        
+      
     }   
